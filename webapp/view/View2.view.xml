@@ -1,0 +1,50 @@
+<mvc:View controllerName="app.chandhu177.controller.View2"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+       xmlns:f="sap.ui.layout.form">
+    <Page id="page1" title="{i18n>title}">
+
+    <content>
+<VBox>
+<Table id="idTable2" items="{miningModel>/}" mode="SingleSelectMaster" selectionChange="onRowPress" inset="false" growing="true" growingThreshold="10">
+<columns>
+<Column>
+<Text text="Drill_ID"/>
+</Column>
+<Column>
+<Text text="Location_ID"/>
+</Column>
+<Column>
+<Text text="Drill_Count"/>
+</Column>
+<Column>
+<Text text="MineralType"/>
+</Column>
+<Column>
+<Text text="Total_Cost (INR)"/>
+</Column>
+<Column>
+<Text text="Man_Days"/>
+</Column>
+<Column>
+<Text text="Probability_of_Positive_Outcome"/>
+</Column>
+</columns>
+<items>
+<ColumnListItem>
+<cells>
+<Text text="{miningModel>Drill_ID}"/>
+<Text text="{miningModel>Location_ID}"/>
+<Text text="{miningModel>Drill_Count}"/>
+<Text text="{miningModel>Mineral_Type}"/>
+<Text text="{miningModel>Total_Cost}"/>
+<Text text="{miningModel>Man_Days}"/>
+<Text text="{miningModel>Probability_of_Positive_Outcome}"/>
+</cells>
+</ColumnListItem>
+</items>
+</Table>
+</VBox>
+</content>      
+        </Page>
+</mvc:View>

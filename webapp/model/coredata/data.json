@@ -1,0 +1,327 @@
+{
+    "miningData":[
+        {
+          "Location_ID": "L001",
+          "Location_Description": "North Valley, Region 1",
+          "Mining_Resource_Allocated": "Gold",
+          "Total_Cost": 500000,
+          "Report_of_Possible_Minerals": ["Gold", "Silver"]
+        },
+        {
+          "Location_ID": "L002",
+          "Location_Description": "East Ridge, Region 2",
+          "Mining_Resource_Allocated": "Copper",
+          "Total_Cost": 350000,
+          "Report_of_Possible_Minerals": ["Copper", "Iron"]
+        },
+        {
+          "Location_ID": "L003",
+          "Location_Description": "South Mountain, Region 3",
+          "Mining_Resource_Allocated": "Iron",
+          "Total_Cost": 420000,
+          "Report_of_Possible_Minerals": ["Iron", "Coal"]
+        },
+        {
+          "Location_ID": "L004",
+          "Location_Description": "West Plains, Region 4",
+          "Mining_Resource_Allocated": "Coal",
+          "Total_Cost": 300000,
+          "Report_of_Possible_Minerals": ["Coal", "Limestone"]
+        },
+        {
+          "Location_ID": "L005",
+          "Location_Description": "Central Basin, Region 5",
+          "Mining_Resource_Allocated": "Gold",
+          "Total_Cost": 600000,
+          "Report_of_Possible_Minerals": ["Gold", "Platinum"]
+        },
+        {
+          "Location_ID": "L006",
+          "Location_Description": "Green Hills, Region 6",
+          "Mining_Resource_Allocated": "Platinum",
+          "Total_Cost": 700000,
+          "Report_of_Possible_Minerals": ["Platinum", "Nickel"]
+        },
+        {
+          "Location_ID": "L007",
+          "Location_Description": "Red Mountain, Region 7",
+          "Mining_Resource_Allocated": "Nickel",
+          "Total_Cost": 450000,
+          "Report_of_Possible_Minerals": ["Nickel", "Copper"]
+        },
+        {
+          "Location_ID": "L008",
+          "Location_Description": "Blue Ridge, Region 8",
+          "Mining_Resource_Allocated": "Silver",
+          "Total_Cost": 550000,
+          "Report_of_Possible_Minerals": ["Silver", "Gold"]
+        },
+        {
+          "Location_ID": "L009",
+          "Location_Description": "Orange Valley, Region 9",
+          "Mining_Resource_Allocated": "Copper",
+          "Total_Cost": 380000,
+          "Report_of_Possible_Minerals": ["Copper", "Zinc"]
+        },
+        {
+          "Location_ID": "L010",
+          "Location_Description": "Golden Plains, Region 10",
+          "Mining_Resource_Allocated": "Gold",
+          "Total_Cost": 620000,
+          "Report_of_Possible_Minerals": ["Gold", "Silver"]
+        },
+        {
+          "Location_ID": "L011",
+          "Location_Description": "Silver Lake, Region 11",
+          "Mining_Resource_Allocated": "Silver",
+          "Total_Cost": 400000,
+          "Report_of_Possible_Minerals": ["Silver", "Copper"]
+        },
+        {
+          "Location_ID": "L012",
+          "Location_Description": "Iron Cliffs, Region 12",
+          "Mining_Resource_Allocated": "Iron",
+          "Total_Cost": 430000,
+          "Report_of_Possible_Minerals": ["Iron", "Zinc"]
+        },
+        {
+          "Location_ID": "L013",
+          "Location_Description": "Mountain Ridge, Region 13",
+          "Mining_Resource_Allocated": "Copper",
+          "Total_Cost": 490000,
+          "Report_of_Possible_Minerals": ["Copper", "Gold"]
+        },
+        {
+          "Location_ID": "L014",
+          "Location_Description": "Limestone Valley, Region 14",
+          "Mining_Resource_Allocated": "Limestone",
+          "Total_Cost": 370000,
+          "Report_of_Possible_Minerals": ["Limestone", "Coal"]
+        },
+        {
+          "Location_ID": "L015",
+          "Location_Description": "Deep Mine, Region 15",
+          "Mining_Resource_Allocated": "Gold",
+          "Total_Cost": 550000,
+          "Report_of_Possible_Minerals": ["Gold", "Diamond"]
+        },
+        {
+          "Location_ID": "L016",
+          "Location_Description": "Red Ridge, Region 16",
+          "Mining_Resource_Allocated": "Nickel",
+          "Total_Cost": 460000,
+          "Report_of_Possible_Minerals": ["Nickel", "Silver"]
+        },
+        {
+          "Location_ID": "L017",
+          "Location_Description": "Iron Hill, Region 17",
+          "Mining_Resource_Allocated": "Iron",
+          "Total_Cost": 480000,
+          "Report_of_Possible_Minerals": ["Iron", "Copper"]
+        },
+        {
+          "Location_ID": "L018",
+          "Location_Description": "Crystal Springs, Region 18",
+          "Mining_Resource_Allocated": "Platinum",
+          "Total_Cost": 650000,
+          "Report_of_Possible_Minerals": ["Platinum", "Gold"]
+        },
+        {
+          "Location_ID": "L019",
+          "Location_Description": "Gold Rush, Region 19",
+          "Mining_Resource_Allocated": "Gold",
+          "Total_Cost": 700000,
+          "Report_of_Possible_Minerals": ["Gold", "Silver"]
+        },
+        {
+          "Location_ID": "L020",
+          "Location_Description": "Silver Creek, Region 20",
+          "Mining_Resource_Allocated": "Silver",
+          "Total_Cost": 420000,
+          "Report_of_Possible_Minerals": ["Silver", "Copper"]
+        }
+      ],
+ 
+     
+    "drillData": [
+        {
+            "Drill_ID": "D001",
+            "Location_ID": "L001",
+            "Drill_Count": 5,
+            "Mineral_Type": "Gold",
+            "Total_Cost": 500000,
+          "Report_of_Possible_Minerals": ["Gold", "Silver"],
+          "Man_Days": 10,
+        "Probability_of_Positive_Outcome": 0.85
+        },
+        {
+            "Drill_ID": "D002",
+            "Location_ID": "L001",
+            "Drill_Count": 3,
+            "Mineral_Type": "Silver",
+            "Total_Cost": 350000,
+          "Report_of_Possible_Minerals": ["Copper", "Iron"],
+          "Man_Days": 7,
+        "Probability_of_Positive_Outcome": 0.75
+        },
+        {
+            "Drill_ID": "D003",
+            "Location_ID": "L002",
+            "Drill_Count": 4,
+            "Mineral_Type": "Copper",
+            "Total_Cost": 420000,
+            "Report_of_Possible_Minerals": ["Iron", "Coal"],
+            "Man_Days": 8,
+            "Probability_of_Positive_Outcome": 0.80
+           
+        },
+        {
+            "Drill_ID": "D004",
+            "Location_ID": "L002",
+            "Drill_Count": 2,
+            "Mineral_Type": "Iron",
+            "Total_Cost": 300000,
+          "Report_of_Possible_Minerals": ["Coal", "Limestone"],
+          "Man_Days": 5,
+        "Probability_of_Positive_Outcome": 0.70
+        },
+        {
+            "Drill_ID": "D005",
+            "Location_ID": "L003",
+            "Drill_Count": 7,
+            "Mineral_Type": "Iron",
+            "Total_Cost": 600000,
+            "Report_of_Possible_Minerals": ["Gold", "Platinum"],
+            "Man_Days": 6,
+            "Probability_of_Positive_Outcome": 0.60
+        },
+        {
+            "Drill_ID": "D006",
+            "Location_ID": "L003",
+            "Drill_Count": 4,
+            "Mineral_Type": "Coal",
+            "Total_Cost": 700000,
+            "Report_of_Possible_Minerals": ["Platinum", "Nickel"],
+            "Man_Days": 9,
+            "Probability_of_Positive_Outcome": 0.65
+ 
+        },
+        {
+            "Drill_ID": "D007",
+            "Location_ID": "L004",
+            "Drill_Count": 6,
+            "Mineral_Type": "Coal",
+            "Total_Cost": 450000,
+          "Report_of_Possible_Minerals": ["Nickel", "Copper"],
+          "Man_Days": 4,
+          "Probability_of_Positive_Outcome": 0.55
+        },
+        {
+            "Drill_ID": "D008",
+            "Location_ID": "L004",
+            "Drill_Count": 2,
+            "Mineral_Type": "Limestone",
+            "Total_Cost": 550000,
+            "Report_of_Possible_Minerals": ["Silver", "Gold"],
+            "Man_Days": 11,
+            "Probability_of_Positive_Outcome": 0.80
+ 
+        },
+        {
+            "Drill_ID": "D009",
+            "Location_ID": "L005",
+            "Drill_Count": 5,
+            "Mineral_Type": "Gold",
+            "Total_Cost": 380000,
+            "Report_of_Possible_Minerals": ["Copper", "Zinc"],
+            "Man_Days": 5,
+            "Probability_of_Positive_Outcome": 0.70
+        },
+        {
+            "Drill_ID": "D010",
+            "Location_ID": "L005",
+            "Drill_Count": 3,
+            "Mineral_Type": "Platinum",
+            "Total_Cost": 620000,
+            "Report_of_Possible_Minerals": ["Gold", "Silver"],
+            "Man_Days": 15,
+            "Probability_of_Positive_Outcome": 0.90
+        },
+        {
+            "Drill_ID": "D011",
+            "Location_ID": "L006",
+            "Drill_Count": 8,
+            "Mineral_Type": "Platinum",
+            "Total_Cost": 400000,
+            "Report_of_Possible_Minerals": ["Silver", "Copper"],
+            "Man_Days": 3,
+            "Probability_of_Positive_Outcome": 0.50
+        },
+        {
+            "Drill_ID": "D012",
+            "Location_ID": "L006",
+            "Drill_Count": 2,
+            "Mineral_Type": "Nickel",
+            "Mining_Resource_Allocated": "Iron",
+            "Total_Cost": 430000,
+            "Report_of_Possible_Minerals": ["Iron", "Zinc"],
+            "Man_Days": 10,
+            "Probability_of_Positive_Outcome": 0.75
+        },
+        {
+            "Drill_ID": "D013",
+            "Location_ID": "L007",
+            "Drill_Count": 5,
+            "Mineral_Type": "Nickel",
+            "Total_Cost": 490000,
+          "Report_of_Possible_Minerals": ["Copper", "Gold"],
+          "Man_Days": 6,
+          "Probability_of_Positive_Outcome": 0.65
+        },
+        {
+            "Drill_ID": "D014",
+            "Location_ID": "L007",
+            "Drill_Count": 3,
+            "Mineral_Type": "Copper",
+            "Total_Cost": 370000,
+            "Report_of_Possible_Minerals": ["Limestone", "Coal"],
+            "Man_Days": 9,
+            "Probability_of_Positive_Outcome": 0.70
+        },
+        {
+            "Drill_ID": "D015",
+            "Location_ID": "L008",
+            "Drill_Count": 6,
+            "Mineral_Type": "Silver",
+            "Total_Cost": 460000,
+            "Report_of_Possible_Minerals": ["Nickel", "Silver"],
+            "Man_Days": 8,
+        "Probability_of_Positive_Outcome": 0.65
+ 
+        },
+        {
+            "Drill_ID": "D016",
+            "Location_ID": "L008",
+            "Drill_Count": 3,
+            "Mineral_Type": "Gold",
+            "Total_Cost": 460000,
+            "Report_of_Possible_Minerals": ["Nickel", "Silver"],
+            "Man_Days": 7,
+            "Probability_of_Positive_Outcome": 0.60
+        },
+        {
+            "Drill_ID": "D017",
+            "Location_ID": "L009",
+            "Drill_Count": 4,
+            "Mineral_Type": "Copper",
+            "Total_Cost": 480000,
+            "Report_of_Possible_Minerals": ["Iron", "Copper"],
+            "Man_Days": 7,
+            "Probability_of_Positive_Outcome": 0.60
+}
+ 
+    ]
+ 
+}
+ 
+ 
